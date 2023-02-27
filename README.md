@@ -5,4 +5,6 @@
   
   https://www.youtube.com/watch?v=Nl0J_tcnhQ4
 
-- 
+- Markdown pelo VS Code:
+
+  https://code.visualstudio.com/docs/languages/markdown
