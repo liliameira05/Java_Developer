@@ -8,3 +8,8 @@
 - Markdown pelo VS Code:
 
   https://code.visualstudio.com/docs/languages/markdown
+
+
+- Livro indicado em "Aprendendo a Sintaxe Java":
+
+  https://glysns.gitbook.io/java-basico/
