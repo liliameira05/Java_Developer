@@ -18,8 +18,8 @@ public class Questao15 {
 
         salarioBruto = horasTrabalhadas*valorHora;
         descontoRenda = salarioBruto * 0.11;
-        descontoINSS = (salarioBruto - descontoRenda) * 0.08;
-        descontoSindicato = (salarioBruto - descontoRenda - descontoINSS) * 0.05;
+        descontoINSS = salarioBruto * 0.08;
+        descontoSindicato = salarioBruto * 0.05;
         salarioLiquido = salarioBruto - descontoRenda - descontoINSS - descontoSindicato;
 
         System.out.println("Salario bruto: " + salarioBruto);
