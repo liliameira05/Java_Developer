@@ -28,6 +28,8 @@ public class Questao24 {
             default: operacaoValida = false;
         }
 
+        System.out.println("O resultado e " + resultado);
+
         if (operacaoValida) {
             if (resultado % 2 == 0) {
                 System.out.println("Numero par");
