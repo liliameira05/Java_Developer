@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.swing.JSpinner.NumberEditor;
-
 public class Questao9 {
     
     public static void main (String[] args){
@@ -29,6 +27,14 @@ public class Questao9 {
             numero2 = artificio;
         }
 
+        if (numero1 > numero2) {
+            artificio = numero2;
+            numero2 = numero1;
+            numero1 = artificio;
+        }
+
         System.out.println("A ordem decrescente: " + numero3 + ", " + numero2 + ", " + numero1);
+
+        scan.close();
     }
 }

@@ -28,5 +28,7 @@ public class Questao15 {
         } else {
             System.out.println("Nao e um triangulo");
         }
+
+        scan.close();
     }
 }

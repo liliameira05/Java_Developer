@@ -18,6 +18,8 @@ public class Questao23 {
         } else {
             System.out.println("Numero decimal");
         }
+
+        scan.close();
     }
     
 }

@@ -21,7 +21,7 @@ public class Questao3 {
             default: System.out.println("Sexo invalido");
         }
 
-        
+        scan.close();
     }
     
 }

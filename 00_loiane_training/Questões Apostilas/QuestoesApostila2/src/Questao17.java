@@ -16,5 +16,7 @@ public class Questao17 {
         } else {
             System.out.println(ano + " nao e bissexto");
         }
+
+        scan.close();
     }
 }

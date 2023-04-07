@@ -26,5 +26,7 @@ public class Questao14 {
         } else {
             System.out.println("Conceito: E - REAPROVADO");
         }
+
+        scan.close();
     }
 }

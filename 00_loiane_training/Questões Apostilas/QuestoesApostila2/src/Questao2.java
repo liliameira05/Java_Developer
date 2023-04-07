@@ -18,6 +18,8 @@ public class Questao2 {
     } else {
         System.out.println("O numero " + numero + " e negativo");
     }
+
+    scan.close();
         
     }
 }

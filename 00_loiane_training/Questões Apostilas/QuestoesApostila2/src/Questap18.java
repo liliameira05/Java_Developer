@@ -30,6 +30,8 @@ public class Questap18 {
         } else {
             System.out.println("Data e valida: " + dia + "/" + mes + "/" + ano);
         }
+
+        scan.close();
     }
     
 }

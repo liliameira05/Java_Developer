@@ -24,5 +24,7 @@ public class Questao6 {
         }
 
         System.out.println("O maior numero e " + maiorNumero);
+
+        scan.close();
     }
 }

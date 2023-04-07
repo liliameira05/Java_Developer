@@ -52,6 +52,8 @@ public class Questao24 {
             System.out.println("Escolha uma operacao valida");
         }
 
+        scan.close();
+
     }
     
 }

@@ -15,11 +15,15 @@ public class Questao10 {
         entradaTeclado = scan.next().toLowerCase();
         turno = entradaTeclado.charAt(0);
 
+        // Pode aceitar mais de uma letra, mas analisa apenas a primeira para dar a resposta
+
         switch(turno){
             case 'm': System.out.println("Matutino"); break;
             case 'v': System.out.println("Vespertino"); break;
             case 'n': System.out.println("Noturno"); break;
             default: System.out.println("Valor invalido");
         }
+
+        scan.close();
     }    
 }

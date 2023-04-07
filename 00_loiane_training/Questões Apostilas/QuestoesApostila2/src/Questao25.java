@@ -51,8 +51,7 @@ public class Questao25 {
             default: System.out.println("Inocente");
         }
 
-
-        
+        scan.close();        
 
     }
     

@@ -24,5 +24,8 @@ public class Questao13 {
             case 7: System.out.println("Sabado"); break;
             default: System.out.println("Valor invalido");
         }
+
+        scan.close();
+        
     }
 }

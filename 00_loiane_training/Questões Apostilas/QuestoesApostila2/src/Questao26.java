@@ -18,12 +18,23 @@ public class Questao26 {
         tipoCombustivel = scan.next().toLowerCase();
 
         if (tipoCombustivel.equals("a")) {
-            System.out.println("Preco da venda de álcool: R$ " + numeroLitros * 1.9);
+            if (numeroLitros <= 20) {
+                System.out.println("Preco da venda de álcool: R$ " + numeroLitros * 1.9 * 0.97); // Desconto 3%
+            } else {
+                System.out.println("Preco da venda de álcool: R$ " + numeroLitros * 1.9 * 0.95); // Desconto 5%
+            }
         } else if (tipoCombustivel.equals("g")) {
-            System.out.println("Preco da venda de gasolina: R$ " + numeroLitros * 2.5);
+            if (numeroLitros <= 20) {
+                System.out.println("Preco da venda de álcool: R$ " + numeroLitros * 2.5 * 0.96); // Desconto 4%
+            } else {
+                System.out.println("Preco da venda de álcool: R$ " + numeroLitros * 2.5 * 0.94); // Desconto 6%
+            }
         } else {
             System.out.println("Opcao de combustivel nao valida");
         }
+
+        scan.close();
+        
     }
     
 }

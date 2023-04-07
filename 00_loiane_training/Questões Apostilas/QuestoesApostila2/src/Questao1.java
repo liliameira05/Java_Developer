@@ -21,5 +21,7 @@ public class Questao1 {
         } else {
             System.out.println("Os numeros sao iguais");
         }
+
+        scan.close();
     }
 }

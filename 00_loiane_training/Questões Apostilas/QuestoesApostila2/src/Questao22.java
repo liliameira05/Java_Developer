@@ -16,5 +16,7 @@ public class Questao22 {
         } else {
             System.out.println("E um numero impar");
         }
+
+        scan.close();
     }    
 }

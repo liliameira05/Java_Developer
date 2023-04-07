@@ -16,12 +16,14 @@ public class Questao5 {
 
         media = (nota1 + nota2) / 2;
         
-        if (media >= 7) {
-            System.out.println("Media: " + media + " Aprovado");
-        } else if (media == 10) {
+        if (media == 10) {
             System.out.println("Media: " + media + " Aprovado com Distincao");
+        } else if (media >= 7) {
+            System.out.println("Media: " + media + " Aprovado");
         } else {
             System.out.println("Media: " + media + " Reprovado");
-        }        
+        }
+        
+        scan.close();
     }
 }

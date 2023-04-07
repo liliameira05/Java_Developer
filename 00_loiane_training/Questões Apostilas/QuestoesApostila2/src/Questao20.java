@@ -25,5 +25,8 @@ public class Questao20 {
         } else {
             System.out.println("Reprovado");
         }
+
+        scan.close();
+        
     }
 }

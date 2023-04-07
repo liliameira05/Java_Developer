@@ -31,6 +31,9 @@ public class Questao7 {
 
         System.out.println("O maior numero e " + maiorNumero);
         System.out.println("O menor numero e " + menorNumero);
+        
+        scan.close();
+    
     }
     
 }

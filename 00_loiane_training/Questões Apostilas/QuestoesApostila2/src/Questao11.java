@@ -40,6 +40,9 @@ public class Questao11 {
             System.out.println("Percentual de aumento e " + percentualAumento);
             System.out.println("Aumento e R$ " + aumento);
             System.out.println("Novo salario e R$ " + salarioNovo);
+        
+            scan.close();
+        
         }
     }
     

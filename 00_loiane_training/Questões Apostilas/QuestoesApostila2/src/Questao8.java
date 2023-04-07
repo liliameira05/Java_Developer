@@ -30,5 +30,7 @@ public class Questao8 {
 
         System.out.println("Compre o " + produto + " de preco " + menorPreco);
 
+        scan.close();
+        
     }
 }

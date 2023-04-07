@@ -31,5 +31,7 @@ public class Questao21 {
             System.out.println(valor + " sera sacado em " + qtdNota100 + " notas de 100 reais, " + qtdNota50 + " notas de 50 reais, " + qtdNota10 + " notas de 10 reais, " + qtdNota5 + " notas de 5 reais e " + qtdNota1 + " notas de 1 real");
         }
 
+        scan.close();
+
     }
 }
