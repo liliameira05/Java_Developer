@@ -1,4 +1,4 @@
-# Estudos de Java - Dio
+# Estudos de Java
 
 ## Linkd de estudo
 - Clonar um repositório do GitHub usando o VS Code: 
@@ -24,7 +24,7 @@
 
   If you do not close the scanner class it will generate warnings like Resource leak.
   
-  Resource leak happens when a program doesn’t release the resources it has acquired. As OS have limit on the no of sockets,file handle,database conn etc thus its extremely important to manage these non-memory resources explicitly. So we explicitly call close() methods to free up resources .
+  Resource leak happens when a program doesn’t release the resources it has acquired. As OS have limit on the no of sockets, file handle, database conn etc thus its extremely important to manage these non-memory resources explicitly. So we explicitly call close() methods to free up resources.
   
   NOTE : Garbage collection in java can only mange memory resources.Non-memory system memory resources need to be handled explicitly by programmer.
 
