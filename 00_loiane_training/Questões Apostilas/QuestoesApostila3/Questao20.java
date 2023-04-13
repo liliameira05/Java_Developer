@@ -11,7 +11,7 @@ public class Questao20 {
         int number, result;
 
         do {
-            System.out.println("Inser a number (positive and lower than 16) to find its factorial");
+            System.out.println("Insert a number (positive and lower than 16) to find its factorial");
             number = scan.nextInt();
 
             result = 1;
