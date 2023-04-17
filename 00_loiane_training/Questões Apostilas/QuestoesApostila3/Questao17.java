@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Questao17 {
 
+    // It's the same as question 32
+
     public static void main (String[] args) {
 
         // Instantiate a scanner object

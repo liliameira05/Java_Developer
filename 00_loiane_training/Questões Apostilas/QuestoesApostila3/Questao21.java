@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Questao21 {
+
+    // It's the same as question 34
     
     public static void main (String[] args) {
 
